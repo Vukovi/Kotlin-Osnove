@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
     // Second method Safe Call Operator ?
     println(nullableName?.length)
 
-    // Ovo se zove Elvis Operator i slicno je IF/LET u swiftu
+    // Ovo se zove Elvis Operator i slicno je ?? u swiftu
     val len = nullableName?.length ?: -1
     val noName = nullableName ?: "No one knows me..."
 
